@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/carts.css">
+    <!-- <link rel="stylesheet" href="../css/reset.css"> -->
+    
+</head>
+<body>
+<div id="auto" style="display: none;">
+    <a href="" class="a1">注册</a>|
+    <a href="" class="a2">登录</a>
+    <a href="" class="a3">我的好乐买</a>|
+    <a href="" class="a4">手机好乐买</a>|
+    <a href="" class="a5">关注好乐买</a>|
+    <a href="" class="a6">客户服务</a>|
+    <a href="" class="a7">公告</a>
+</div>
+<div id="header" style="display: none;">
+    <div class="con">
+        <img src="../img/index/logo.png" alt="" class="img1">
+        <div class="mid">
+            <div class="midtop">
+                <div>
+                    <input type="text" placeholder="Champion">
+                    <span>搜索</span>
+                </div>
+                <a href="">夹克外套</a>
+                <a href="">卡骆驰</a>
+                <a href="">斯凯奇</a>
+                <a href="">美特斯邦威</a>
+                <a href="">Adidas童鞋</a>
+                <a href="">LEE</a>
+                <a href="">美妆个护</a>
+            </div>
+        </div>
+        <div class="right">
+            <i></i>
+            <input type="text" value="去购物车结算(0)">
+        </div>
+    </div>
+</div>
+<div id="line" style="display: none;">
+    <div class="wrap">
+        <nav id="nav">
+            <ul class="nav">
+                <li class="nav-item active">
+                    <a href="#">首页</a>
+                    <div class="subMenu">
+                        <ul class="insert"></ul>
+                    </div>
+                </li>
+                <li class="nav-item select">
+                    <a href="#">运动生活</a>
+                    <div class="subMenu">
+                        <ul class="insert"></ul>
+                    </div>
+                </li>
+                <li class="nav-item select">
+                    <a href="#">休闲服饰</a>
+                    <div class="subMenu">
+                        <ul class="insert"></ul>
+                    </div>
+                </li>
+                <li class="nav-item select">
+                    <a href="#">男女名鞋</a>
+                    <div class="subMenu">
+                        <ul class="insert"></ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>   
+
+<div id="cart" style="display: none;">
+    <div class="con" style="display: block;">
+        <div class="bot">
+            <h1 class="wd">我的购物车</h1>
+        </div>
+        <div class="nin">
+            <p>您还没有登录！登录后购物车的商品将保存到您的账号中</p>
+            <input type="button" value="登录" class="btn">
+        </div>
+        <div class="tp">
+            <img src="http://0.js.al.okbuycdn.com/resources/images/v6/cart/nullcart.png" alt="">
+            <div class="fl">
+                <p>购物车内无商品,去逛逛吧！</p>
+                <input type="button" value="逛逛特卖">
+                <input type="button" value="我的收藏">
+            </div>
+        </div>
+    </div>
+    <div class="login_l" style="display:none ; background-color:white" >
+        <div class="l1">
+            <p>
+                <a href="javascript:;" class="loginBtn">账号登录</a>|
+                <a href="javascript:;" class="registorBtn">扫码登录</a>
+            </p>
+        </div>
+        <!-- 扫码登录  -->
+        <div class="change1">
+            <div class="l2">
+                <img src="../img/login/login_new_ewm.png" alt="" class="img1">
+            </div>
+            <div class="l3">
+                <p>请使用好乐买APP扫码登录</p>
+            </div>
+            <div class="l4">
+                <a href="javascript:;" class="a1"></a>
+                <a href="javascript:;" class="a2">下载好乐买APP</a>
+            </div>
+            
+        </div>
+        <!-- 账号登录  -->
+        <div class="change2">
+            <input type="text" placeholder="已验手机/邮箱/用户名" class="phone" >
+            <span class="dw"></span>
+            <input type="text" placeholder="密码" class="pwd">
+            <span class="dw"></span>
+            <input type="button" value="登录" class="login_btn" >
+            <span class="dw"></span>
+            <p><a href="javascript:;">忘记密码？</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="float-box">
+        <div class="confirm-box">
+            <h4 class="confirm-title">
+                <span></span>
+                <i class="close-btn">
+                    <span class="line-left"></span>
+                    <span class="line-right"></span>
+                </i>
+            </h4>
+            <div class="confirm-content">
+                请选择您要删除的商品？
+            </div>
+            <div class="confirm-btn">
+                <a href="javascript:;" class="delete">删除</a>
+                <a href="javascript:;" class="cancel">取消</a>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+    </div>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.js"></script>
+<script src="../js/index.min.js"></script>
+<script src="../js/login.min.js"></script>
+<script src="../js/cart.min.js"></script>
+<script src="../js/carts.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,290 @@
+ul.nav > li:nth-child(2){
+    background: #D70057;
+}
+ul.nav >li:nth-child(2)>a::before{ 
+    content: ''; 
+    position: absolute; 
+    left: 50%; bottom: 0; 
+    transform: translateX(-50%); 
+    border-width: 0 10px 10px; 
+    border-style: solid; 
+    border-color: transparent transparent #119f0f; 
+    position: absolute;
+}
+// hlm
+@import "public";
+#hlm{
+    background: #F9F9F9;
+    .con{
+        padding-left: 20px;
+        padding-right: 20px;
+        @include center-block;
+        p{
+            // position: relative;
+            line-height: 35px;
+            padding: 20px 0;
+            overflow: hidden;
+            border-top: 1px dashed #cccccc;
+            span{float: left;}
+            .s1{
+                width: 110px;
+                text-align: center;
+                display: inline-block;
+    
+            }
+            .s2{
+                display: inline-block;
+                width: 40px;
+                height: 25px;
+                background: #D70057;
+                text-align: center;
+                line-height: 25px;
+                color: white;
+                margin: 0 20px;
+                
+            }
+            .boy{
+                margin-right: 100px;
+            }
+            .gd{
+                // position: relative;
+                // left: 198px;
+                width: 800px;
+                display:inline-block;
+                >a{
+                    display: inline-block;
+                    width: 120px;
+                }
+            }
+            .s3{
+                float: right;
+            }
+            i{
+                font-style:normal
+            }
+            .s5{
+                position: relative;
+                left: 29px;
+                top: 0;
+                vertical-align: middle;
+            }
+            .s4{
+                display: inline-block;
+                width: 50px;
+                height: 30px;
+                border: 1px solid #cccccc;
+                line-height: 30px;
+                margin: 0 10px;
+                text-indent: 15px;
+            }
+            .qd{
+                width: 50px;
+                height: 30px;
+                background: #FFE1ED;
+                display: inline-block;
+                text-align: center;
+                line-height: 30px;
+                margin-left: 16px;
+                cursor: pointer;
+            }
+            .colors{
+                a{
+                    background: url(http://0.js.al.okbuycdn.com/resources/images/v6/product/color.png) 0 0 no-repeat;
+                    width: 28px;
+                    height: 22px;
+                    display: inline-block;
+                }
+                a:nth-child(1){
+                    background-position: -1px 0;
+                }
+                a:nth-child(2){
+                    background-position: -88px 0;
+                }
+                a:nth-child(3){
+                    background-position: -59px 0;
+                }
+                a:nth-child(4){
+                    background-position: -117px -34px;
+                }
+                a:nth-child(5){
+                    background-position: -59px -34px;
+                }
+                a:nth-child(6){
+                    background-position: -30px -34px;
+                }
+                a:nth-child(7){
+                    background-position: -260px -34px;
+                }
+                a:nth-child(8){
+                    background-position: -146px -34px;
+                }
+                a:nth-child(9){
+                    background-position: -88px -34px;
+                }
+                a:nth-child(10){
+                    background-position: -204px 0;
+                }
+                a:nth-child(11){
+                    background-position: -117px 0;
+                }
+                a:nth-child(12){
+                    background-position: -175px 0;
+                }
+                a:nth-child(13){
+                    background-position: -232px -34px;
+                }
+                a:nth-child(14){
+                    background-position: -287px 0;
+                }
+                a:nth-child(15){
+                    background-position: -287px -34px;
+                }
+                a:nth-child(16){
+                    background-position: -204px -34px;
+                }
+                a:nth-child(17){
+                    background-position: -146px 0;
+                }
+                a:nth-child(18){
+                    background-position: -175px -34px;
+                }
+                a:nth-child(19){
+                    background-position: -232px 0;
+                }
+                a:nth-child(20){
+                    background-position: -1px -34px;
+                }
+                a:nth-child(21){
+                    background-position: -260px 0;
+                }
+            }
+            
+        }
+        p:nth-child(1){
+            margin: 0px 30px;
+        }
+        .bl{
+            color:black;
+            font-weight: bolder;
+            margin-right: 10px;
+            i{
+                float: left;
+            }
+
+        }
+        .co{
+            color:red
+        }
+        .qb{
+            float: right;
+        }
+        .section-item{
+            padding: 19px 0;
+            border-top: 1px dashed #cccccc;
+            display: flex;
+            .filter-label{
+                width: 110px;
+                text-align: center;
+                display: inline-block;
+            }
+        }
+        .filter-con{
+            display: flex;
+            align-items: center;
+            .filter-all{
+                float: left;
+                .check{
+                    display: inline-block;
+                    width: 40px;
+                    height: 25px;
+                    background: #D70057;
+                    text-align: center;
+                    line-height: 25px;
+                    color: white;
+                    margin: 0 20px;
+                }
+            }
+            .filter-list{
+                .clearfix{
+                    width: 875px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    .cate-item{
+                        width: 120px;
+                        float: left;
+                    }
+                }
+            }
+        }
+    }
+}
+// goods
+#goods{
+    background: #F9F9F9;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    #con{
+        @include center-block;
+        #listheader{
+            overflow: hidden;
+
+            .pro-catetab{
+                float: left;
+            }
+            .propage-info{
+                float: right;
+                .next{
+                    float: right;
+                }
+                .page-text{
+                    float: right;
+                }
+                .prev{
+                    float: right;
+
+                }
+                .pro-number{
+                    float: right;
+                }
+            }
+        }
+        #main{
+            ul{
+                overflow: hidden;
+                li{
+                    float: left;
+                    width: 25%;
+                    p{
+                        margin-top: 10px;
+                    }
+                    .good{
+
+                    }
+                    .name{
+
+                    }
+                    .price{
+                        text-align: center;
+                        .und{
+                            text-decoration: line-through;
+                            color: gray;
+                        }
+                    }
+                    .tj{
+                        background: #eee;
+                        margin-bottom: 20px;
+                        width: 250px;
+                        .s1{
+                            background: red;
+                            color: white;
+                        }
+                        .s2{
+                            text-indent: 15px;
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
